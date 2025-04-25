@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Power BI - Producción</title>
+    <link rel="stylesheet" href="HojaEstilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-chart-line"></i> <span class="logo-text">Dashboards</span></h2>
+                <button id="toggleSidebar" class="menu-toggle"><i class="fas fa-bars"></i></button>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="active"><a href="#"><i class="fas fa-chart-pie"></i> <span>Finanzas</span></a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> <span>Nóminas</span></a></li>
+                    <li><a href="#"><i class="fas fa-industry"></i> <span>Producción</span></a></li>
+                    <li><a href="#"><i class="fas fa-truck"></i> <span>Embarques</span></a></li>
+                    <li><a href="#"><i class="fas fa-exclamation-triangle"></i> <span>Paros de Planta</span></a></li>
+                    <li><a href="#"><i class="fas fa-hard-hat"></i> <span>Mantenimiento Mayor</span></a></li>
+                    <li><a href="#"><i class="fas fa-arrow-right-from-bracket"></i> <span>Cerrar Sesión</span></a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <div class="dashboard-frame">
+                <div class="powerbi-fullscreen-container">
+                    <iframe
+                        title="Dashboard de Producción"
+                        src="https://app.powerbi.com/view?r=eyJrIjoiZjUxOGI2NjQtMTQ3NS00YmQwLWE4OGItMTgwN2EyNDAwMGNiIiwidCI6IjM4NjliZjNkLTg2YTktNDI3Ni1hYzQzLTAyMTdiNmI5ZmFkOCJ9"
+                        frameborder="0"
+                        allowFullScreen="true">
+                    </iframe>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="JSInicio.js"></script>
+</body>
+</html>
